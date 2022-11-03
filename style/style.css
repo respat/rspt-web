@@ -3,6 +3,7 @@
 
 #container {
     max-width: 1000px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -20,6 +21,22 @@
 
 #nav {
     background-color: #282828;
+    height: 750px;
+    width: 250px;
+    padding: 15px 10px;
+}
+
+#nav span {
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 0px;
+    border-bottom: 1px dashed white;
+}
+
+#nav span a{
+    margin: 10px 0px;
+    color: white;
+    text-decoration: none;
 }
 
 *{
