@@ -20,9 +20,8 @@
 }
 
 #nav {
-    display: inline-block;
     background-color: #282828;
-    height: 750px;
+    height: 900px;
     width: 20%;
     float: left;
     padding: 15px 10px;
@@ -73,18 +72,29 @@
 
 #content h2 {
     font-size: 3rem;
-    display: inline;
+    line-height: 1.4;
+}
+
+#content h2 span {
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
     background-color: greenyellow;
 }
 
+#content p {
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
 #content .img-right {
-    padding: 20px;
     float: right;
+    padding: 0 0 15px 15px;
 }
 
 #content .img-left {
-    padding: 20px;
     float: left;
+    padding: 0 15px 15px 0;
 }
 
 *{
@@ -107,4 +117,16 @@ body {
     content:'';
     clear: both;
     display: table;
+}
+
+#footer p {
+    padding: 20px 0px;
+}
+
+#footer p:first-child {
+    float: left;
+}
+
+#footer p:last-child {
+    float: right;
 }
