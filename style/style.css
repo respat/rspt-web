@@ -8,14 +8,13 @@
 }
 
 #header {
-    margin-top: -80px;
     background: url('../img/bg-header.jpg');
     height: 255px;
 }
 
 #header h1 {
     font-size: 4rem;
-    padding: 90px 50px;
+    padding: 80px 60px;
     color: white;
 }
 
@@ -79,6 +78,7 @@
     -webkit-box-decoration-break: clone;
     -o-box-decoration-break: clone;
     box-decoration-break: clone;
+    padding: 0 10px;
     background-color: greenyellow;
 }
 
