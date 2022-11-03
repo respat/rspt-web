@@ -20,6 +20,7 @@
 }
 
 #nav {
+    display: inline-block;
     background-color: #282828;
     height: 750px;
     width: 250px;
@@ -37,6 +38,15 @@
     margin: 10px 0px;
     color: white;
     text-decoration: none;
+}
+
+#content {
+    height: 750px;
+    width: 750;
+}
+
+#content img {
+    float: right;
 }
 
 *{
